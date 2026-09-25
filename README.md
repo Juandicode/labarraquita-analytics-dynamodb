@@ -2,7 +2,7 @@
 
 Sistema de analytics serverless, propio y sin terceros, para medir tráfico y engagement real en el sitio de producción de La Barraquita — proyecto de portfolio para roles de Cloud/DevOps.
 
-**🔗 Endpoint en producción:** `https://fmu7f97lj0.execute-api.us-east-2.amazonaws.com/track`
+**🔗 Endpoint ** `https://fmu7f97lj0.execute-api.us-east-2.amazonaws.com/track`
 **🔗 Corriendo en:** `https://d1bsgcjseh0k7h.cloudfront.net` (sitio del [Proyecto 1](https://github.com/Juandicode/labarraquita-aws-s3-cloudfront))
 
 > Nota: este repo contiene solo el backend (Lambda). El snippet de tracking que dispara los eventos vive en el `index.html` del repo del sitio — es una decisión deliberada de separar frontend y backend en repos distintos (ver sección de decisiones).
